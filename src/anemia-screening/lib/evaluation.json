@@ -1,0 +1,96 @@
+{
+  "rows_train": 672,
+  "rows_test": 168,
+  "accuracy": 0.8393,
+  "macro_f1": 0.8443,
+  "policy_emitted": 164,
+  "policy_abstained": 4,
+  "accuracy_when_emitted": 0.8476,
+  "per_class": {
+    "B12_deficiency_anemia": {
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.8888888888888888,
+      "support": 13.0
+    },
+    "B12_deficiency_no_anemia": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 10.0
+    },
+    "B6_deficiency": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "anemia_other": {
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.896551724137931,
+      "support": 15.0
+    },
+    "copper_deficiency": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.75,
+      "support": 7.0
+    },
+    "folate_deficiency_anemia": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1-score": 0.8421052631578947,
+      "support": 10.0
+    },
+    "folate_deficiency_no_anemia": {
+      "precision": 0.6666666666666666,
+      "recall": 0.75,
+      "f1-score": 0.7058823529411765,
+      "support": 8.0
+    },
+    "inflammation_anemia": {
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1-score": 0.9629629629629629,
+      "support": 13.0
+    },
+    "iron_deficiency_anemia": {
+      "precision": 0.782608695652174,
+      "recall": 0.782608695652174,
+      "f1-score": 0.782608695652174,
+      "support": 23.0
+    },
+    "latent_deficiency": {
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.9090909090909091,
+      "support": 17.0
+    },
+    "mixed_deficiency": {
+      "precision": 0.8,
+      "recall": 0.6956521739130435,
+      "f1-score": 0.7441860465116279,
+      "support": 23.0
+    },
+    "no_anemia_no_deficiency": {
+      "precision": 0.7916666666666666,
+      "recall": 0.8636363636363636,
+      "f1-score": 0.8260869565217391,
+      "support": 22.0
+    },
+    "accuracy": 0.8392857142857143,
+    "macro avg": {
+      "precision": 0.8456902749022315,
+      "recall": 0.8481899565339462,
+      "f1-score": 0.844286726911852,
+      "support": 168.0
+    },
+    "weighted avg": {
+      "precision": 0.8439637660619803,
+      "recall": 0.8392857142857143,
+      "f1-score": 0.8395639132177442,
+      "support": 168.0
+    }
+  }
+}

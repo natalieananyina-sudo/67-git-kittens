@@ -1,0 +1,16 @@
+.git
+.next
+.openai
+.sites-runtime
+.wrangler
+node_modules
+.venv
+dist
+upload
+*.csv
+*.zip
+*.tar.gz
+.env*
+__pycache__
+*.pyc
+tsconfig.tsbuildinfo
