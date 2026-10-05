@@ -35,8 +35,12 @@ TARGET_COLS = [
 # Идентификатор (не использовать как признак)
 ID_COLS = ['patient_id']
 
-# Все колонки-утечки
-LEAKAGE_COLS = TARGET_COLS + ID_COLS
+# Строковые колонки (не использовать как признаки — есть числовые дубликаты)
+# sex → sex_M (0/1), age_group → age_years
+STRING_COLS = ['sex', 'age_group']
+
+# Все колонки-утечки + строковые
+LEAKAGE_COLS = TARGET_COLS + ID_COLS + STRING_COLS
 
 # Основной таргет для мультикласса
 TARGET_MULTI = 'anemia_class'

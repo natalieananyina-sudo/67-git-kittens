@@ -47,23 +47,30 @@ def test_load_features(df):
 
 
 def test_no_leakage_in_features(df):
-    """Проверяет, что таргеты не попали в признаки."""
+    """Проверяет, что таргеты и строковые колонки не попали в признаки."""
     features = get_feature_columns(df)
     for col in LEAKAGE_COLS:
         assert col not in features, f"Утечка: {col} в признаках"
 
 
 def test_feature_count(df):
-    """Проверяет, что признаков 78."""
+    """Проверяет, что признаков 76."""
     features = get_feature_columns(df)
-    assert len(features) == 78, f"Ожидалось 78 признаков, получено {len(features)}"
+    assert len(features) == 76, f"Ожидалось 76 признаков, получено {len(features)}"
+
+
+def test_no_string_columns_in_features(df):
+    """Проверяет, что в X нет строковых колонок."""
+    features = get_feature_columns(df)
+    object_cols = df[features].select_dtypes(include='object').columns.tolist()
+    assert len(object_cols) == 0, f"В X есть строковые колонки: {object_cols}"
 
 
 def test_split_sizes(splits):
     """Проверяет размеры train/test."""
     X_train, X_test, y_train, y_test, ids_train, ids_test = splits
-    assert X_train.shape == (672, 78), f"Train: ожидалось (672, 78), получено {X_train.shape}"
-    assert X_test.shape == (168, 78), f"Test: ожидалось (168, 78), получено {X_test.shape}"
+    assert X_train.shape == (672, 76), f"Train: ожидалось (672, 76), получено {X_train.shape}"
+    assert X_test.shape == (168, 76), f"Test: ожидалось (168, 76), получено {X_test.shape}"
     assert y_train.shape == (672,)
     assert y_test.shape == (168,)
 
