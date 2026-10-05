@@ -53,3 +53,7 @@ reports/*.png
 reports/*.csv
 reports/*.txt
 !reports/.gitkeep
+
+# External data
+data/external/*.csv
+!data/external/.gitkeep
