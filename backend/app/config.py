@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ======================================================================
 DEMO_DOCTOR_LOGIN = "doctor_demo"
 DEMO_DOCTOR_PASSWORD = "y7pr-gHXm-Pb9w"
-DEMO_DOCTOR_NAME = "Врач (демо-доступ)"
+DEMO_DOCTOR_NAME = "Врач"   # имя в шапке интерфейса
 
 # Ключ подписи токенов. В реальной системе он берётся только из окружения.
 _DEV_JWT_SECRET = "84a53c4850f63d18b033d3c3c91329b30d58730ac8e3f1bbc009a6df223d7e10"

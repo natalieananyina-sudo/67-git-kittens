@@ -20,7 +20,7 @@
 Важно: модель обучалась на этом же датасете, поэтому совпадение на демо-наборах выше, чем на новых данных
 (честная оценка — test-метрики в backend/ml/artifacts/models/final/model_manifest.json).
 
-Скрипт также записывает backend/app/engine/demo_cases.json — примеры для интерфейса и демо-файл API.
+Скрипт также записывает backend/app/engine/demo_cases.json — строку для шаблона CSV и проверочные случаи для автотестов.
 """
 import argparse
 import csv
@@ -279,7 +279,7 @@ def main() -> None:
     write_csv(out / "single" / "09_insufficient_data.csv", [insufficient])
     write_answers(answers_dir / "single_answers.csv", single_answers)
 
-    # Примеры для интерфейса и демо-файл API (backend/app/engine/demo_cases.json)
+    # Строка для шаблона CSV и проверочные случаи для автотестов (backend/app/engine/demo_cases.json)
     titles = {"no_anemia_no_deficiency": "Без отклонений"}
     examples = []
     for n, (name, cls) in enumerate(singles, start=1):

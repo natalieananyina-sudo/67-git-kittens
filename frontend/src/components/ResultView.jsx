@@ -175,7 +175,7 @@ export default function ResultView({ result }) {
           {/* Только этот блок попадает на печать */}
           <div className="print-area">
             <div className="print-only print-head">
-              <p>Скрининг латентных дефицитных состояний</p>
+              <p>HemoKit</p>
               <p>
                 Результат скрининга · случай {result.case_id} · {printedOn}
               </p>

@@ -57,15 +57,14 @@ def _upload(client, headers, name, content, mime="text/csv"):
     return client.post("/api/v1/screening/batch", headers=headers, files={"file": (name, content, mime)})
 
 
-def test_batch_demo_file(client, auth_headers):
-    body = _upload(client, auth_headers, "demo.csv", demo_data.demo_csv().encode()).json()
-    summary = body["summary"]
-    assert (summary["total"], summary["completed"], summary["errors"], summary["insufficient_data"]) == (27, 25, 2, 1)
-    assert {r["case_id"] for r in body["rows"] if r["status"] == "error"} == {"ERR-01", "ERR-02"}
-    assert len({r["anemia_class"] for r in body["rows"] if r["anemia_class"]}) == 12
-    first_ok = next(r for r in body["rows"] if r["status"] == "completed")
-    reopen = client.post("/api/v1/screening", json=first_ok["input"], headers=auth_headers)
-    assert reopen.status_code == 200 and reopen.json()["anemia_class"] == first_ok["anemia_class"]
+def test_batch_reopen_row_gives_same_result(client, auth_headers):
+    """Строка из таблицы «Много пациентов» открывается карточкой с тем же результатом."""
+    labs = IRON_REQUEST["laboratory_data"]
+    text = "patient_id,age_years,sex," + ",".join(labs) + "\nR1,40,female," + ",".join(str(v) for v in labs.values()) + "\n"
+    body = _upload(client, auth_headers, "t.csv", text.encode()).json()
+    row = body["rows"][0]
+    reopen = client.post("/api/v1/screening", json=row["input"], headers=auth_headers)
+    assert reopen.status_code == 200 and reopen.json()["anemia_class"] == row["anemia_class"]
 
 
 def test_batch_semicolon_decimal_comma_cp1251_and_units_in_header(client, auth_headers):
@@ -149,12 +148,17 @@ def test_catalog(client):
     assert hb["required"] is True and hb["unit"] == "г/л" and hb["alt_units"][0]["code"] == "g/dL"
 
 
-def test_template_and_examples(client, auth_headers):
+def test_template(client, auth_headers):
     template = client.get("/api/v1/screening/batch/template", headers=auth_headers)
     assert template.text.splitlines()[0].startswith("patient_id,age_years,sex,hemoglobin,RBC")
+    assert template.text.splitlines()[1].startswith("CASE-001,")
     assert _upload(client, auth_headers, "t.csv", template.content).status_code == 200
-    for example in client.get("/api/v1/screening/examples", headers=auth_headers).json()["examples"]:
-        assert client.post("/api/v1/screening", json=example["input"], headers=auth_headers).status_code == 200
+
+
+def test_demo_and_example_endpoints_removed(client, auth_headers):
+    """Примеры и демо-файлы в интерфейсе и API не предлагаются."""
+    for path in ("/api/v1/screening/examples", "/api/v1/screening/examples/EX-02/file", "/api/v1/screening/batch/demo-file"):
+        assert client.get(path, headers=auth_headers).status_code == 404, path
 
 
 def test_openapi_and_security_headers(client):
@@ -207,11 +211,11 @@ def _upload_single(client, headers, name, content):
 
 
 def test_single_patient_file(client, auth_headers):
-    example = client.get(f"/api/v1/screening/examples/{IRON_EXAMPLE['id']}/file", headers=auth_headers)
-    assert example.status_code == 200
-    body = _upload_single(client, auth_headers, "one.csv", example.content).json()
+    labs = IRON_REQUEST["laboratory_data"]
+    text = "patient_id,age_years,sex," + ",".join(labs) + "\nONE-1,40,F," + ",".join(str(v) for v in labs.values()) + "\n"
+    body = _upload_single(client, auth_headers, "one.csv", text.encode()).json()
     assert body["file_check"]["ok"] is True
-    assert body["result"]["case_id"] == IRON_EXAMPLE["id"] and body["result"]["anemia_class"] == "iron_deficiency_anemia"
+    assert body["result"]["case_id"] == "ONE-1" and body["result"]["anemia_class"] == "iron_deficiency_anemia"
 
 
 def test_single_patient_file_with_units_in_header(client, auth_headers):
@@ -232,6 +236,3 @@ def test_single_patient_file_with_bad_cell(client, auth_headers):
     issue = response.json()["file_check"]["issues"][0]
     assert issue["row"] == 1 and issue["column"] == "ferritin"
 
-
-def test_unknown_example_file(client, auth_headers):
-    assert client.get("/api/v1/screening/examples/NOPE/file", headers=auth_headers).status_code == 404

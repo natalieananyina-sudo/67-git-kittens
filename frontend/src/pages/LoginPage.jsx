@@ -36,8 +36,8 @@ export default function LoginPage() {
   return (
     <main className="step">
       <header className="hero reveal">
-        <h1>Скрининг анемий и латентных дефицитов</h1>
-        <p>ИИ-анализ лабораторных показателей для медицинских специалистов</p>
+        <h1>HemoKit</h1>
+        <p>ИИ-скрининг анемий и латентных дефицитов по лабораторным показателям для медицинских специалистов</p>
       </header>
 
       <form className="glass reveal" onSubmit={handleSubmit} noValidate>

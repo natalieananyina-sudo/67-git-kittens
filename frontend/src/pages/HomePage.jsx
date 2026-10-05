@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div className="welcome">
       <section className="welcome-text reveal">
-        <h1 className="page-title">Добро пожаловать в сервис для скрининга латентных дефицитных состояний!</h1>
+        <h1 className="page-title">Добро пожаловать в HemoKit — сервис для скрининга латентных дефицитных состояний!</h1>
         <p className="page-lead">Выберите один из режимов работы ниже</p>
       </section>
 

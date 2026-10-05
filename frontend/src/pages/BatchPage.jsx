@@ -62,15 +62,6 @@ export default function BatchPage() {
     }
   }
 
-  async function runDemo() {
-    try {
-      const blob = await api.download("/screening/batch/demo-file");
-      await run(new File([blob], "demo_batch.csv", { type: "text/csv" }));
-    } catch (e) {
-      setError(e.message);
-    }
-  }
-
   async function downloadTemplate() {
     try {
       saveBlob(await api.download("/screening/batch/template"), "screening_template.csv");
@@ -96,9 +87,8 @@ export default function BatchPage() {
       <section className="intro reveal">
         <h1 className="page-title">Много пациентов</h1>
         <p className="page-lead">
-          Обязательные столбцы: patient_id, age_years, sex и hemoglobin, остальные показатели как в шаблоне (RBC, MCV,
-          ferritin…). Единицу можно указать в заголовке, например «ferritin (ng/mL)». Столбцы с ФИО и контактами не
-          принимаются. Если в строке не хватает анализов, модель отметит её как «Недостаточно данных».
+          Для ввода обязательны ID пациента, его возраст, пол и уровень гемоглобина. Файлы, содержащие личные данные
+          (ФИО, номер телефона), не принимаются.
         </p>
       </section>
 
@@ -116,9 +106,6 @@ export default function BatchPage() {
         <div className="form-toolbar">
           <button type="button" className="ghost-button" onClick={downloadTemplate}>
             Скачать шаблон
-          </button>
-          <button type="button" className="ghost-button" onClick={runDemo} disabled={loading}>
-            Проверить на демо-файле
           </button>
         </div>
         {loading && (

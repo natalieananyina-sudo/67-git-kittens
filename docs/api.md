@@ -20,9 +20,6 @@
 | `POST /screening/file` | токен | Один пациент, файл CSV/XLSX с одной строкой |
 | `POST /screening/batch` | токен | Много пациентов, файл CSV/XLSX |
 | `GET /screening/batch/template` | токен | Шаблон файла |
-| `GET /screening/batch/demo-file` | токен | Небольшой демо-файл |
-| `GET /screening/examples` | токен | Примеры одного пациента (обезличенные копии строк датасета) |
-| `GET /screening/examples/{id}/file` | токен | Пример одного пациента в виде файла |
 
 ## Один пациент (JSON)
 

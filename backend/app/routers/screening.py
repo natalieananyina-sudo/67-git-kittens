@@ -1,4 +1,4 @@
-"""Эндпоинты скрининга: один случай (JSON или файл), много случаев (файл), шаблоны и примеры."""
+"""Эндпоинты скрининга: один случай (JSON или файл), много случаев (файл), шаблон файла."""
 from fastapi import APIRouter, Depends, File, UploadFile
 from fastapi.responses import JSONResponse, Response
 
@@ -104,22 +104,3 @@ def _csv_response(text: str, filename: str) -> Response:
 @router.get("/batch/template", summary="Шаблон CSV (подходит для обоих режимов)", responses=_AUTH)
 def batch_template():
     return _csv_response(demo_data.template_csv(), "screening_template.csv")
-
-
-@router.get("/batch/demo-file", summary="Демо-файл с несколькими пациентами", responses=_AUTH)
-def batch_demo_file():
-    return _csv_response(demo_data.demo_csv(), "demo_batch.csv")
-
-
-@router.get("/examples", summary="Вымышленные примеры для режима «Один пациент»", responses=_AUTH)
-def screening_examples():
-    return {"examples": demo_data.examples()}
-
-
-@router.get("/examples/{example_id}/file", summary="Пример одного пациента в виде файла CSV",
-            responses={**_AUTH, 404: {"description": "Пример не найден"}})
-def screening_example_file(example_id: str):
-    text = demo_data.example_csv(example_id)
-    if text is None:
-        return JSONResponse(status_code=404, content={"detail": "Пример не найден."})
-    return _csv_response(text, f"example_{example_id}.csv")

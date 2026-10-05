@@ -25,7 +25,7 @@ def test_same_message_for_wrong_login_and_wrong_password(client):
 
 def test_protected_endpoints_need_token(client):
     for method, path in [("get", "/api/v1/auth/me"), ("post", "/api/v1/screening"), ("post", "/api/v1/screening/file"),
-                         ("post", "/api/v1/screening/batch"), ("get", "/api/v1/screening/examples"),
+                         ("post", "/api/v1/screening/batch"),
                          ("get", "/api/v1/screening/batch/template")]:
         assert getattr(client, method)(path).status_code == 401, path
     assert client.get("/api/v1/auth/me", headers={"Authorization": "Bearer garbage"}).status_code == 401

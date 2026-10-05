@@ -27,8 +27,6 @@ function scrollTo(element) {
 }
 
 export default function SinglePage() {
-  const [examples, setExamples] = useState([]);
-
   // Режим 1 (основной): загрузка файла
   const [fileName, setFileName] = useState("");
   const [fileCheck, setFileCheck] = useState(null);
@@ -49,10 +47,6 @@ export default function SinglePage() {
   const resultRef = useRef(null);
   const manualRef = useRef(null);
   const formRef = useRef(null);
-
-  useEffect(() => {
-    api.examples().then((ex) => setExamples(ex.examples)).catch(() => setExamples([]));
-  }, []);
 
   // После получения результата прокручиваем к нему
   useEffect(() => {
@@ -76,16 +70,6 @@ export default function SinglePage() {
       else setFileError(e.message);
     } finally {
       setFileLoading(false);
-    }
-  }
-
-  async function runExample(id) {
-    if (!id) return;
-    try {
-      const blob = await api.download(`/screening/examples/${id}/file`);
-      await runFile(new File([blob], `example_${id}.csv`, { type: "text/csv" }));
-    } catch (e) {
-      setFileError(e.message);
     }
   }
 
@@ -121,17 +105,6 @@ export default function SinglePage() {
       else next.delete(key);
       return next;
     });
-  }
-
-  function applyExample(id) {
-    const example = examples.find((e) => e.id === id);
-    if (!example || !catalog) return;
-    const { input } = example;
-    const labs = Object.fromEntries(Object.entries(input.laboratory_data).map(([k, v]) => [k, num(v)]));
-    setForm({ case_id: input.case_id, sex: input.sex, age: String(input.age), labs, units: {} });
-    setErrors({});
-    setFormError("");
-    setOpenGroups(new Set(catalog.analytes.filter((a) => a.key in labs).map((a) => a.group)));
   }
 
   function reset() {
@@ -223,17 +196,6 @@ export default function SinglePage() {
           <button type="button" className="ghost-button" onClick={downloadTemplate}>
             Скачать шаблон
           </button>
-          <label className="inline-label">
-            <span>Или откройте пример</span>
-            <select className="input select compact" value="" onChange={(e) => runExample(e.target.value)} disabled={fileLoading}>
-              <option value="">Выберите пример…</option>
-              {examples.map((e) => (
-                <option key={e.id} value={e.id}>
-                  {e.title}
-                </option>
-              ))}
-            </select>
-          </label>
         </div>
         {fileLoading && <p role="status">Проверяем и анализируем {fileName}…</p>}
         {fileError && (
@@ -266,17 +228,6 @@ export default function SinglePage() {
                 панели анализов, кроме одной. Если данных не хватит, сервис скажет, чего именно.
               </p>
               <div className="form-toolbar">
-                <label className="inline-label">
-                  <span>Заполнить примером</span>
-                  <select className="input select compact" value="" onChange={(e) => applyExample(e.target.value)}>
-                    <option value="">Выберите пример…</option>
-                    {examples.map((e) => (
-                      <option key={e.id} value={e.id}>
-                        {e.title}
-                      </option>
-                    ))}
-                  </select>
-                </label>
                 <button type="button" className="ghost-button" onClick={reset}>
                   Очистить форму
                 </button>

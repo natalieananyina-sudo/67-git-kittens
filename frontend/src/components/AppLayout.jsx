@@ -29,7 +29,7 @@ export default function AppLayout() {
       <header className="topbar no-print">
         <div className="topbar-inner">
           <NavLink to="/app" end className="brand crt-text">
-            <span>Скрининг анемий</span>
+            <span>HemoKit</span>
           </NavLink>
           {inMode && (
             <nav className="nav" aria-label="Режим работы">

@@ -11,7 +11,7 @@ from .engine.predictor import get_predictor
 from .routers import auth, meta, screening
 
 DESCRIPTION = """
-Сервис скрининга анемий и латентных дефицитных состояний.
+HemoKit — сервис скрининга анемий и латентных дефицитных состояний.
 
 **Что сервис делает:** проверяет формат данных и приводит значения к единицам датасета, передаёт их в ML-модуль
 (`backend/ml`, модель *Hierarchical Random Forest + panel masking*), который проверяет достаточность данных,
@@ -30,7 +30,7 @@ async def lifespan(_app: FastAPI):
     yield
 
 
-app = FastAPI(title="Скрининг анемий: API", version=settings.app_version, description=DESCRIPTION,
+app = FastAPI(title="HemoKit API", version=settings.app_version, description=DESCRIPTION,
               docs_url="/docs", redoc_url=None, lifespan=lifespan)
 
 app.add_middleware(CORSMiddleware, allow_origins=list(settings.cors_origins),

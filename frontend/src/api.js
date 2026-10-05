@@ -63,11 +63,10 @@ export const api = {
   login: (login, password) => request("/auth/login", { method: "POST", body: { login, password }, auth: false }),
   health: () => request("/health", { auth: false }),
   analytes: () => request("/analytes", { auth: false }),
-  examples: () => request("/screening/examples"),
   screen: (input) => request("/screening", { method: "POST", body: input }),
   screenFile: (file) => upload("/screening/file", file), // один пациент из файла
   batch: (file) => upload("/screening/batch", file), // много пациентов из файла
-  // Скачивание файла с авторизацией (шаблон, демо-файл, пример)
+  // Скачивание файла с авторизацией (шаблон)
   download: async (path) => (await request(path, { raw: true })).blob(),
 };
 
