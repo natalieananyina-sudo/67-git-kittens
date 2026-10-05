@@ -46,3 +46,10 @@ secrets/
 
 # Логи
 *.log
+
+# Reports (генерируются заново)
+reports/*.json
+reports/*.png
+reports/*.csv
+reports/*.txt
+!reports/.gitkeep
