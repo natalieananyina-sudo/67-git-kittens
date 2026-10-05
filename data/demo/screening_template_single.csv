@@ -1,0 +1,2 @@
+patient_id,age_years,sex,hemoglobin,RBC,hematocrit,MCV,MCH,MCHC,RDW,platelets,WBC,reticulocytes,ferritin,serum_iron,transferrin,TIBC,UIBC,TSAT,sTfR,Ret_He,vitamin_B12,active_B12,MMA,homocysteine,folate,vitamin_B6,copper,ceruloplasmin,CRP,ESR,creatinine,eGFR,TSH,albumin,LDH,indirect_bilirubin,haptoglobin
+CASE-TEST-001,74,F,112.3,4.2,38.8,91.9,26.7,285.0,14.0,408,5.44,1.2,33.9,11.649999999999999,2.79,69.7,53.150000000000006,17.25,2.83,29.6,307.0,64.9,0.232,17.4,5.7,48.85,20.6,0.25,2.0,10.0,77.0,95.0,2.07,45.5,237.0,9.9,1.1949999999999998
