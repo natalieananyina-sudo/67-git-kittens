@@ -1,0 +1,8 @@
+patient_id,problem_column,problem
+ER-0009,hemoglobin,"нет гемоглобина: не ошибка формата, модель вернёт insufficient_data"
+ER-0010,hemoglobin,гемоглобин в г/дл вместо г/л
+ER-0011,age_years,возраст младше 18 лет
+ER-0012,sex,неизвестный пол
+ER-0013,CRP,значение с символом «<»
+ER-0014,ferritin,текст вместо числа
+ER-0001,patient_id,"повтор ID (предупреждение, строка обработается)"

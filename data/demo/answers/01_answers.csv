@@ -1,0 +1,25 @@
+patient_id,true_class,true_class_ru,service_status,service_class,match
+SC-0001,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+SC-0002,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+SC-0003,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+SC-0004,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+SC-0005,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+SC-0006,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+SC-0007,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+SC-0008,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+SC-0009,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+SC-0010,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+SC-0011,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+SC-0012,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+SC-0013,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+SC-0014,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+SC-0015,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+SC-0016,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+SC-0017,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+SC-0018,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+SC-0019,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+SC-0020,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+SC-0021,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+SC-0022,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+SC-0023,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+SC-0024,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1

@@ -1,0 +1,23 @@
+{
+  "patient_id": "P000009",
+  "status": "signal_detected",
+  "reason": null,
+  "data_sufficient": true,
+  "anemia": 1,
+  "deficiency_cause": "B12_deficiency",
+  "anemia_class": "B12_deficiency_anemia",
+  "missing_panels": [],
+  "deficiency_cause_scores": {
+    "B12_deficiency": 0.6112224448897795,
+    "B12_folate": 0.22645290581162325,
+    "B6_deficiency": 0.004008016032064128,
+    "copper_deficiency": 0.028056112224448898,
+    "folate_deficiency": 0.08216432865731463,
+    "inflammation": 0.004008016032064128,
+    "iron_B12": 0.004008016032064128,
+    "iron_deficiency": 0.002004008016032064,
+    "iron_folate": 0.004008016032064128,
+    "undetermined": 0.03406813627254509
+  },
+  "model_score": 0.6112224448897795
+}

@@ -1,0 +1,61 @@
+patient_id,true_class,true_class_ru,service_status,service_class,match
+CD-0001,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0002,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+CD-0003,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0004,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0005,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+CD-0006,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0007,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+CD-0008,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+CD-0009,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+CD-0010,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+CD-0011,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+CD-0012,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+CD-0013,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0014,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0015,B6_deficiency,Дефицит витамина B6,signal_detected,anemia_other,0
+CD-0016,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0017,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+CD-0018,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0019,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+CD-0020,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+CD-0021,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0022,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+CD-0023,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+CD-0024,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0025,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+CD-0026,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+CD-0027,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+CD-0028,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+CD-0029,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+CD-0030,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+CD-0031,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+CD-0032,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0033,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+CD-0034,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+CD-0035,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0036,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+CD-0037,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0038,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0039,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+CD-0040,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+CD-0041,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+CD-0042,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0043,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+CD-0044,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+CD-0045,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+CD-0046,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0047,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+CD-0048,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+CD-0049,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+CD-0050,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+CD-0051,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+CD-0052,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+CD-0053,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0054,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+CD-0055,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+CD-0056,copper_deficiency,Дефицит меди,signal_detected,anemia_other,0
+CD-0057,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+CD-0058,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+CD-0059,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+CD-0060,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1

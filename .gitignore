@@ -9,11 +9,15 @@ env/
 *.egg-info/
 .pytest_cache/
 
+# Node (фронтенд сервиса)
+node_modules/
+dist/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Данные (большие файлы)
+# Данные (большие файлы). Демо-наборы сервиса data/demo/ в репозиторий входят.
 data/raw/*.csv
 data/raw/*.xlsx
 data/processed/*.csv
@@ -21,12 +25,15 @@ data/processed/*.parquet
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Модели (большие бинарники)
+# Модели экспериментов из ноутбуков (большие бинарники, пересоздаются src/train.py)
 models/*.pkl
 models/*.joblib
 models/*.h5
 models/*.onnx
 !models/.gitkeep
+# Финальная модель сервиса backend/ml/artifacts/models/final/pipeline.joblib (24 МБ) коммитится намеренно:
+# без неё сервис не воспроизводится. Правила выше её не затрагивают (относятся только к корневой папке models/).
+# Лимит GitHub на файл — 100 МБ, Git LFS не нужен.
 
 # IDE
 .vscode/
@@ -39,9 +46,10 @@ models/*.onnx
 Thumbs.db
 desktop.ini
 
-# Секреты
+# Секреты и локальные файлы
 .env
 *.key
+*.local
 secrets/
 
 # Логи

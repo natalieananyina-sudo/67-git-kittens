@@ -1,0 +1,23 @@
+{
+  "model_name": "anemia_hierarchical_rf_masked_v1",
+  "version": "1.0.0",
+  "architecture": "hierarchical_multiclass",
+  "algorithm": "RandomForestClassifier",
+  "training_strategy": "panel_masking",
+  "model_target": "deficiency_cause",
+  "final_target": "anemia_class",
+  "test_metrics": {
+    "macro_f1": 0.8835,
+    "balanced_accuracy": 0.8768,
+    "macro_precision": 0.9096,
+    "macro_recall": 0.8768
+  },
+  "python_version": "3.12.1",
+  "scikit_learn_version": "1.9.0",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.6",
+  "joblib_version": "1.5.3",
+  "model_sha256": "c041ca661cb49ca14977f31cbde5aa4ead57d3982710a5249b9703c00cd1ebef",
+  "inference_class": "src.ml.AnemiaInferenceService",
+  "note": "model_score is a technical model score and is not a clinically calibrated probability"
+}

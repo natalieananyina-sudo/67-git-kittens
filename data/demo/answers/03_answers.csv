@@ -1,0 +1,601 @@
+patient_id,true_class,true_class_ru,service_status,service_class,match
+LG-0001,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0002,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0003,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0004,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0005,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0006,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0007,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0008,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0009,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0010,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0011,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0012,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0013,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0014,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0015,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0016,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0017,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0018,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0019,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0020,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0021,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0022,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0023,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0024,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0025,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0026,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0027,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0028,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0029,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0030,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0031,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0032,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0033,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0034,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0035,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0036,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0037,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0038,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0039,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0040,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0041,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0042,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0043,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0044,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0045,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0046,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0047,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0048,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0049,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0050,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0051,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0052,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0053,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0054,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0055,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0056,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0057,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0058,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0059,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0060,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0061,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0062,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0063,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0064,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0065,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0066,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0067,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0068,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0069,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0070,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0071,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0072,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0073,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0074,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0075,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0076,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0077,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0078,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0079,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0080,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0081,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0082,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0083,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0084,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0085,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0086,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0087,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0088,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0089,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0090,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0091,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0092,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0093,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0094,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0095,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0096,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0097,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0098,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0099,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0100,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0101,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0102,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0103,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0104,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0105,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0106,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0107,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0108,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0109,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0110,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0111,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0112,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0113,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0114,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0115,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0116,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0117,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0118,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0119,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0120,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0121,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0122,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0123,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0124,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0125,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0126,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0127,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0128,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0129,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0130,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0131,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0132,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0133,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0134,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0135,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0136,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0137,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0138,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0139,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0140,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0141,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0142,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0143,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0144,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0145,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0146,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0147,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0148,copper_deficiency,Дефицит меди,insufficient_data,,0
+LG-0149,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0150,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0151,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0152,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0153,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0154,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0155,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0156,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0157,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0158,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0159,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0160,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0161,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0162,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0163,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0164,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,B12_deficiency_anemia,0
+LG-0165,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0166,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0167,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0168,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0169,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0170,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0171,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0172,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0173,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0174,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0175,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0176,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0177,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0178,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0179,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0180,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0181,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0182,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0183,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0184,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0185,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0186,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0187,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0188,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0189,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0190,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0191,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0192,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0193,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0194,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0195,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0196,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0197,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0198,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0199,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0200,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0201,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0202,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0203,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0204,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0205,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0206,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0207,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0208,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0209,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0210,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0211,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0212,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0213,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0214,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0215,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0216,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0217,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0218,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0219,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0220,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0221,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0222,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0223,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0224,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0225,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0226,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0227,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0228,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0229,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0230,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0231,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0232,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0233,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0234,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0235,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0236,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0237,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0238,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0239,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0240,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0241,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0242,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0243,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0244,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0245,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0246,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0247,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0248,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0249,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0250,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0251,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0252,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0253,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0254,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0255,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0256,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0257,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0258,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0259,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0260,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0261,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0262,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0263,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0264,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0265,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0266,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0267,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0268,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0269,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0270,copper_deficiency,Дефицит меди,signal_detected,anemia_other,0
+LG-0271,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0272,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0273,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0274,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0275,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0276,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0277,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0278,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0279,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0280,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0281,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0282,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0283,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0284,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0285,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0286,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0287,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0288,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0289,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0290,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0291,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0292,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0293,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0294,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0295,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0296,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0297,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0298,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0299,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0300,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0301,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0302,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0303,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0304,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0305,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0306,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0307,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0308,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0309,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0310,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0311,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0312,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0313,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0314,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0315,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0316,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0317,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0318,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0319,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0320,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0321,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0322,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0323,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0324,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0325,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0326,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0327,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0328,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0329,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0330,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,mixed_deficiency,0
+LG-0331,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0332,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0333,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0334,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0335,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0336,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0337,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0338,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0339,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0340,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,iron_deficiency_anemia,0
+LG-0341,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0342,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0343,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0344,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0345,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0346,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0347,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0348,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0349,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0350,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0351,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0352,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0353,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0354,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0355,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0356,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0357,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0358,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0359,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0360,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0361,B6_deficiency,Дефицит витамина B6,signal_detected,anemia_other,0
+LG-0362,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0363,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0364,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0365,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0366,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0367,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0368,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0369,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0370,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0371,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0372,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0373,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0374,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0375,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0376,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0377,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0378,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0379,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0380,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0381,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0382,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0383,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0384,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0385,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0386,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,anemia_other,0
+LG-0387,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0388,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0389,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0390,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0391,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0392,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0393,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0394,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0395,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0396,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0397,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0398,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0399,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0400,folate_deficiency_no_anemia,Дефицит фолатов без анемии,signal_detected,folate_deficiency_no_anemia,1
+LG-0401,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0402,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0403,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0404,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0405,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0406,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0407,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0408,B6_deficiency,Дефицит витамина B6,insufficient_data,,0
+LG-0409,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0410,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0411,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0412,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0413,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0414,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0415,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0416,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0417,B6_deficiency,Дефицит витамина B6,insufficient_data,,0
+LG-0418,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0419,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0420,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0421,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0422,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0423,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0424,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0425,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0426,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0427,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0428,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0429,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0430,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0431,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0432,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0433,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0434,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0435,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0436,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0437,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0438,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0439,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0440,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,folate_deficiency_anemia,0
+LG-0441,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0442,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0443,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0444,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0445,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0446,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0447,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0448,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0449,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0450,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0451,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0452,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0453,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0454,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0455,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0456,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0457,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0458,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0459,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0460,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0461,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0462,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0463,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0464,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0465,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0466,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0467,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0468,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0469,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+LG-0470,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0471,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0472,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0473,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0474,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0475,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0476,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0477,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0478,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0479,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0480,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0481,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0482,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0483,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0484,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0485,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0486,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0487,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0488,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0489,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0490,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0491,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0492,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0493,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0494,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0495,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0496,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0497,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0498,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0499,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0500,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0501,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0502,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0503,mixed_deficiency,Сочетанное дефицитное состояние,insufficient_data,,0
+LG-0504,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0505,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0506,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0507,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0508,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,folate_deficiency_anemia,0
+LG-0509,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0510,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0511,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0512,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0513,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0514,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0515,B12_deficiency_anemia,B12-дефицитная анемия,insufficient_data,,0
+LG-0516,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0517,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0518,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0519,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0520,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0521,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0522,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0523,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0524,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0525,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0526,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0527,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0528,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0529,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0530,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0531,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0532,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0533,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0534,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0535,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0536,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0537,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0538,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0539,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+LG-0540,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0541,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0542,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0543,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0544,B6_deficiency,Дефицит витамина B6,insufficient_data,,0
+LG-0545,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0546,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0547,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0548,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0549,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0550,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0551,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0552,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0553,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0554,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0555,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0556,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0557,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0558,folate_deficiency_no_anemia,Дефицит фолатов без анемии,insufficient_data,,0
+LG-0559,inflammation_anemia,"Анемия, ассоциированная с воспалением",insufficient_data,,0
+LG-0560,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,B12_deficiency_anemia,0
+LG-0561,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0562,B12_deficiency_no_anemia,Дефицит B12 без анемии,insufficient_data,,0
+LG-0563,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0564,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0565,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0566,folate_deficiency_anemia,Фолиеводефицитная анемия,insufficient_data,,0
+LG-0567,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+LG-0568,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0569,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0570,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0571,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0572,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0573,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0574,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0575,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0576,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1
+LG-0577,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0578,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0579,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0580,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0581,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0582,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,insufficient_data,,0
+LG-0583,iron_deficiency_anemia,Железодефицитная анемия,insufficient_data,,0
+LG-0584,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0585,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0586,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0587,anemia_other,Анемия без выявленного дефицитного паттерна,insufficient_data,,0
+LG-0588,folate_deficiency_anemia,Фолиеводефицитная анемия,signal_detected,folate_deficiency_anemia,1
+LG-0589,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0590,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0591,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0592,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+LG-0593,B12_deficiency_anemia,B12-дефицитная анемия,signal_detected,B12_deficiency_anemia,1
+LG-0594,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0595,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+LG-0596,latent_deficiency,Латентный дефицит железа без анемии,insufficient_data,,0
+LG-0597,anemia_other,Анемия без выявленного дефицитного паттерна,signal_detected,anemia_other,1
+LG-0598,B6_deficiency,Дефицит витамина B6,signal_detected,B6_deficiency,1
+LG-0599,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+LG-0600,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1

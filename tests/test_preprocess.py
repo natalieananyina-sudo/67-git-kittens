@@ -27,8 +27,15 @@ from preprocess import (
 # ============ ФИКСТУРЫ ============
 @pytest.fixture(scope='module')
 def df():
-    """Загружает df_features.csv один раз для всех тестов."""
-    return load_features()
+    """Загружает df_features.csv один раз для всех тестов.
+
+    Файл создаётся ноутбуком notebooks/02_features.ipynb и не хранится в git (data/processed/*.csv в .gitignore).
+    Если его нет, тесты исследовательской части пропускаются, а не падают: тесты сервиса от него не зависят.
+    """
+    try:
+        return load_features()
+    except FileNotFoundError:
+        pytest.skip("нет data/processed/df_features.csv — запустите notebooks/02_features.ipynb")
 
 
 @pytest.fixture(scope='module')

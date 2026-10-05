@@ -1,0 +1,8 @@
+patient_id,true_class,true_class_ru,service_status,service_class,match
+ONE01-0001,no_anemia_no_deficiency,Нет анемии и исследуемых дефицитов,no_signal_detected,no_anemia_no_deficiency,1
+ONE02-0001,iron_deficiency_anemia,Железодефицитная анемия,signal_detected,iron_deficiency_anemia,1
+ONE03-0001,latent_deficiency,Латентный дефицит железа без анемии,signal_detected,latent_deficiency,1
+ONE04-0001,B12_deficiency_no_anemia,Дефицит B12 без анемии,signal_detected,B12_deficiency_no_anemia,1
+ONE05-0001,mixed_deficiency,Сочетанное дефицитное состояние,signal_detected,mixed_deficiency,1
+ONE06-0001,inflammation_anemia,"Анемия, ассоциированная с воспалением",signal_detected,inflammation_anemia,1
+ONE07-0001,copper_deficiency,Дефицит меди,signal_detected,copper_deficiency,1

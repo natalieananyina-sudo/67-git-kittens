@@ -1,0 +1,18 @@
+# Запуск всего сервиса одной командой:  docker compose up --build
+# Затем откройте http://localhost:8080 (документация API: http://localhost:8080/docs)
+services:
+  backend:
+    build: ./backend
+    env_file: ./config/backend.env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .                       # корень репозитория: образу нужен config/nginx.conf
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

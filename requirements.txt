@@ -1,4 +1,15 @@
-# Core
+# Полное окружение репозитория: сервис + исследовательская часть (ноутбуки, src/preprocess.py, src/train.py).
+#
+#   pip install -r requirements.txt
+#
+# Только для запуска сервиса этот файл не нужен: достаточно backend/requirements.txt (его ставит scripts/setup.sh).
+# Рекомендуемый Python — 3.12: на нём ML-команда сохранила финальную модель.
+
+# Сервис (FastAPI) и ML-модуль с точными версиями scikit-learn / pandas / numpy / joblib,
+# которыми сохранена модель (backend/ml/requirements-ml.txt), а также pytest и httpx для тестов
+-r backend/requirements-dev.txt
+
+# Core (точные версии задаёт backend/ml/requirements-ml.txt; строки ниже с ними совместимы)
 pandas>=2.0
 numpy>=1.24
 

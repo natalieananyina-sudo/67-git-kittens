@@ -1,5 +1,10 @@
 # Внешняя валидация модели на SMASD v1.0
 
+> **Исследовательский материал ML-команды** (`notebooks/05_external_validation.ipynb`).
+> Валидация выполнена для экспериментальной модели RandomForest на 76 признаках, а не для финальной модели
+> сервиса `anemia_hierarchical_rf_masked_v1` (`backend/ml`). Метрики финальной модели — в её паспорте
+> `backend/ml/artifacts/models/final/model_manifest.json` и в [ml_integration.md](ml_integration.md).
+
 **Дата:** 05.10.2026
 **Датасет:** Synthetic Multimodal Anaemia Screening Dataset (SMASD v1.0)
 **Источник:** Kaggle (pragyasingh0808/synthetic-multimodal-anaemia-screening-dataset)

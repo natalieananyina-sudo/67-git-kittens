@@ -1,0 +1,2 @@
+patient_id,age_years,sex,hemoglobin,RBC,hematocrit,MCV,MCH,MCHC,RDW,platelets,WBC,reticulocytes,ferritin,serum_iron,transferrin,TIBC,UIBC,TSAT,sTfR,Ret_He,vitamin_B12,active_B12,MMA,homocysteine,folate,vitamin_B6,copper,ceruloplasmin,CRP,ESR,creatinine,eGFR,TSH,albumin,LDH,indirect_bilirubin,haptoglobin
+ONE07-0001,78,F,120.6,3.83,37.6,98.0,31.5,320.9,17.2,275,3.09,,138.0,29.5,2.95,83.7,54.2,35.3,,35.5,687,,,9.2,12.4,,9.6,,,16,90,80,,,,,

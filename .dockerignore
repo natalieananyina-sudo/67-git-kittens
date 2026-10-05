@@ -1,0 +1,16 @@
+# Контекст сборки фронтенда — корень репозитория; лишнее в образ не передаём
+**/node_modules
+**/dist
+**/.venv
+**/__pycache__
+**/.pytest_cache
+backend
+data
+docs
+tests
+scripts
+# исследовательская часть и прототип в образ фронтенда не нужны
+notebooks
+src
+models
+reports
